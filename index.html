@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Browny's Shop</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styl/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)">Browny's Shop</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about ">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index/cart.html"> Carts</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search" />
+            <button class="btn btn-primary" type="button">Search</button>
+            <a href="/index/cart.html">
+              <img
+                src="icons/icone.png"
+                alt="Search Icon"
+                style="
+                  width: 40px;
+                  height: 40px;
+                  margin-right: 5px;
+                  filter: invert(100%);
+                  padding-left: 5px;
+                "
+              />
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel with Consistent Image Size -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+
+      <!-- The slideshow/carousel with consistent image size -->
+      <div class="carousel-inner" id="home">
+        <div class="carousel-item active position-relative">
+          <img
+            src="imgs/sliiide (2).jpg"
+            alt="Los Angeles"
+            class="d-block w-100"
+            style="height: 500px; object-fit: cover"
+          />
+          <div
+            class="d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle w-100 h-100"
+          >
+            <h1 class="display-4 fw-bold text-white">
+              Welcome to Browny's Shop
+            </h1>
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img
+            src="imgs/slide (2).jpg"
+            alt="Chicago"
+            class="d-block w-100"
+            style="height: 500px; object-fit: cover"
+          />
+          <div
+            class="d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle w-100 h-100"
+          >
+            <h1 class="display-4 fw-bold text-white">
+              Welcome to Browny's Shop
+            </h1>
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img
+            src="imgs/sliiiiiiiiiiiiiiide.jpg"
+            alt="New York"
+            class="d-block w-100"
+            style="height: 500px; object-fit: cover"
+          />
+          <div
+            class="d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle w-100 h-100"
+          >
+            <h1 class="display-4 fw-bold text-white">
+              Welcome to Browny's Shop
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- About Us Section -->
+    <section id="about" class="container my-5">
+      <!-- Header -->
+      <div class="text-center mb-4">
+        <h2>About Us</h2>
+        <p class="lead">Learn more about our company and what we do.</p>
+      </div>
+
+      <!-- Description -->
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Our Mission</h3>
+          <p>
+            At Browny's Shoop, we are committed to offering the best shopping
+            experience, providing high-quality products at affordable prices.
+            Our goal is to bring joy to our customers by offering a wide range
+            of products for all their needs.
+          </p>
+          <p>
+            Whether you're looking for fashion, electronics, or home essentials,
+            we have something for everyone. Our team works tirelessly to ensure
+            the highest standards of customer service and satisfaction.
+          </p>
+        </div>
+
+        <div class="col-md-6">
+          <h3>Why Choose Us?</h3>
+          <ul>
+            <li>High-Quality Products</li>
+            <li>Fast and Reliable Delivery</li>
+            <li>Excellent Customer Service</li>
+            <li>Affordable Prices</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Images or Video Section -->
+      <div class="row mt-4 justify-content-center">
+        <div class="col-md-6 text-center">
+          <img
+            src="photos/team mate.png"
+            class="img-fluid rounded"
+            alt="Shop Image"
+          />
+        </div>
+      </div>
+
+      <!-- <div class="col-md-6">
+          <iframe
+            width="600"
+            height="315"
+            src="https://www.youtube.com/embed/7m16dFI1AF8?autoplay=1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>-->
+
+      <!-- Team or Contact Section -->
+      <div class="text-center my-5">
+        <h3>Meet Our Team</h3>
+        <p>
+          Our dedicated team works hard to ensure you have the best shopping
+          experience. Get to know the people behind Browny's Shoop.
+        </p>
+
+        <div class="row">
+          <!-- Team Member 1 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="photos/John Doe.png"
+                class="card-img-top"
+                alt="Team Member 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">John Doe</h5>
+                <p class="card-text">CEO & Founder</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="photos/Jane Smith.png"
+                class="card-img-top"
+                alt="Team Member 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jane Smith</h5>
+                <p class="card-text">Customer Support Manager</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="photos/Emily Brown.png"
+                class="card-img-top"
+                alt="Team Member 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Emily Brown</h5>
+                <p class="card-text">Product Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Cart Section -->
+    <section id="product" class="container my-5">
+      <h2 class="text-center mb-4">Our Products</h2>
+
+      <!-- Carts Row -->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Cart 1 -->
+        <div class="col">
+          <div class="card">
+            <img
+              src="photos/hoodies (1).png"
+              class="card-img-top"
+              alt="Product 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pullover Hoodie</h5>
+              <p class="card-text">
+                This hoodie is worn by pulling it over the head. It often
+                features a front pocket (called a "kangaroo pocket").
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cart 2 -->
+        <div class="col">
+          <div class="card">
+            <img
+              src="photos/t-shirt (10).png"
+              class="card-img-top"
+              alt="Product 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">V-neck T-Shirt</h5>
+              <p class="card-text">
+                This version has a V-shaped neckline instead of a round one,
+                offering a slightly more stylish and modern look.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cart 3 -->
+        <div class="col">
+          <div class="card">
+            <img
+              src="photos/shoes (1).png"
+              class="card-img-top"
+              alt="Product 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Air Jordan G4 Retro Sneakers</h5>
+              <p class="card-text">
+                The Air Jordan isn’t just a sneaker—it’s a legacy. Designed for
+                ultimate performance and unmatched style.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center my-5">
+      <h3>Our Carts</h3>
+      <p>
+        Our dedicated team works hard to ensure you have the best shopping
+        experience. Get to know more about carts of Browny's Shoop. <br />
+        <a href="/index/cart.html"><span> see more carts</span></a>
+      </p>
+      <!-- Small Product Cart -->
+      <div class="container my-3">
+        <!-- Product Carts -->
+        <div class="row justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-4 col-lg-3 mb-3">
+              <div
+                class="card shadow-sm"
+                style="max-width: 300px; margin: auto"
+              >
+                <img
+                  src="photos/shoes (6).png"
+                  class="card-img-top"
+                  alt="Product Image"
+                />
+                <div class="card-body">
+                  <p class="text-muted small mb-1">
+                    Beauty, Pushing the Limits, comfort
+                  </p>
+                  <h6 class="card-title">Air Jordan Generation 4</h6>
+                  <p class="fw-bold text-primary mb-2">€35.14</p>
+                  <div class="d-flex align-items-center">
+                    <div class="input-group me-2" style="width: 100px">
+                      <button
+                        class="btn btn-outline-secondary btn-sm"
+                        onclick="decrementQuantity(this)"
+                      >
+                        -
+                      </button>
+                      <input
+                        type="text"
+                        class="form-control text-center"
+                        value="1"
+                        id="quantity-1"
+                        style="max-width: 40px"
+                      />
+                      <button
+                        class="btn btn-outline-secondary btn-sm"
+                        onclick="incrementQuantity(this)"
+                      >
+                        +
+                      </button>
+                    </div>
+                    <button
+                      class="btn btn-success btn-sm"
+                      onclick="openPaymentForm('Air Jordan Generation 4', '35.14')"
+                    >
+                      Add
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Add more carts -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+              <div class="card shadow-sm">
+                <img
+                  src="photos/shoes (10).png"
+                  class="card-img-top"
+                  alt="Product Image"
+                />
+                <div class="card-body">
+                  <p class="text-muted small mb-1">
+                    Beauty, Pushing the Limits, comfort
+                  </p>
+                  <h6 class="card-title">Air Jordan Generation 2</h6>
+                  <p class="fw-bold text-primary mb-2">€64.07</p>
+                  <div class="d-flex align-items-center">
+                    <div class="input-group me-2" style="width: 100px">
+                      <button
+                        class="btn btn-outline-secondary btn-sm"
+                        onclick="decrementQuantity(this)"
+                      >
+                        -
+                      </button>
+                      <input
+                        type="text"
+                        class="form-control text-center"
+                        value="1"
+                        id="quantity-2"
+                        style="max-width: 40px"
+                      />
+                      <button
+                        class="btn btn-outline-secondary btn-sm"
+                        onclick="incrementQuantity(this)"
+                      >
+                        +
+                      </button>
+                    </div>
+                    <button
+                      class="btn btn-success btn-sm"
+                      onclick="openPaymentForm('Air Jordan Generation 4', '35.14')"
+                    >
+                      Add
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Add more cards as needed -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+              <div class="card shadow-sm">
+                <img
+                  src="photos/t-shirt (4).png"
+                  class="card-img-top"
+                  alt="Product Image"
+                />
+                <div class="card-body">
+                  <p class="text-muted small mb-1">
+                    Elevate your look with bold design
+                  </p>
+                  <h6 class="card-title">Air Jordan t-shirt</h6>
+                  <p class="fw-bold text-primary mb-2">€40.24</p>
+                  <div class="d-flex align-items-center">
+                    <div class="input-group me-2" style="width: 100px">
+                      <button
+                        class="btn btn-outline-secondary btn-sm"
+                        onclick="decrementQuantity(this)"
+                      >
+                        -
+                      </button>
+                      <input
+                        type="text"
+                        class="form-control text-center"
+                        value="1"
+                        id="quantity-2"
+                        style="max-width: 40px"
+                      />
+                      <button
+                        class="btn btn-outline-secondary btn-sm"
+                        onclick="incrementQuantity(this)"
+                      >
+                        +
+                      </button>
+                    </div>
+                    <button
+                      class="btn btn-success btn-sm"
+                      onclick="openPaymentForm('Air Jordan Generation 4', '35.14')"
+                    >
+                      Add
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Payment Modal -->
+          <div id="paymentModal" class="modal" style="display: none">
+            <div class="modal-content">
+              <span class="close-button" onclick="closePaymentForm()"
+                >&times;</span
+              >
+              <h2>Payment Form</h2>
+              <form id="paymentForm">
+                <div class="mb-3">
+                  <label for="productName" class="form-label">Product</label>
+                  <input
+                    type="text"
+                    id="productName"
+                    class="form-control"
+                    readonly
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="price" class="form-label">Price (€)</label>
+                  <input type="text" id="price" class="form-control" readonly />
+                </div>
+                <div class="mb-3">
+                  <label for="quantity" class="form-label">Quantity</label>
+                  <input
+                    type="number"
+                    id="quantity"
+                    class="form-control"
+                    value="1"
+                    min="1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="total" class="form-label">Total (€)</label>
+                  <input type="text" id="total" class="form-control" readonly />
+                </div>
+                <div class="mb-3">
+                  <label for="paymentMethod" class="form-label"
+                    >Payment Method</label
+                  >
+                  <select id="paymentMethod" class="form-select">
+                    <option value="credit-card">Credit Card</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="bank-transfer">Bank Transfer</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Pay Now</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- explores -->
+    <section id="cards">
+      <div class="container">
+        <h2 class="text-center mb-4">Explore Categories</h2>
+        <div
+          id="categoryCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card shadow-lg">
+                    <div class="card-body text-center">
+                      <i class="bi bi-bag-fill display-4 text-success"></i>
+                      <h5 class="card-title mt-3">Apparel</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-lg">
+                    <div class="card-body text-center">
+                      <i class="bi bi-watch display-4 text-success"></i>
+                      <h5 class="card-title mt-3">Accessories</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-lg">
+                    <div class="card-body text-center">
+                      <i class="bi bi-phone-fill display-4 text-success"></i>
+                      <h5 class="card-title mt-3">Gadgets</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-lg">
+                    <div class="card-body text-center">
+                      <i class="bi bi-house-fill display-4 text-success"></i>
+                      <h5 class="card-title mt-3">Home Decor</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Add more slides here if needed -->
+          </div>
+
+          <!-- Carousel Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#categoryCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#categoryCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4 mt-4">
+      <div class="container">
+        <div class="row">
+          <!-- Map Section -->
+          <div class="col-md-4 mb-3">
+            <h5 class="text-uppercase">Select a Location</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509308!2d144.95373531570703!3d-37.81720974202161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577f0ffeca93cde!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1633066950923!5m2!1sen!2sus"
+              width="100%"
+              height="150"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+
+          <!-- Payment Section -->
+          <div class="col-md-4 mb-3 text-center">
+            <h5 class="text-uppercase">We Accept</h5>
+            <div class="d-flex flex-column align-items-center">
+              <!-- Mastercard -->
+              <a
+                href="https://www.mastercard.com"
+                target="_blank"
+                title="Pay with Mastercard"
+                class="mb-2 text-decoration-none text-dark"
+              >
+                <i
+                  class="bx bxl-mastercard"
+                  style="font-size: 30px; color: red"
+                ></i>
+                <span style="color: wheat">Mastercard</span>
+              </a>
+              <!-- PayPal -->
+              <a
+                href="https://www.paypal.com"
+                target="_blank"
+                title="Pay with PayPal"
+                class="mb-2 text-decoration-none text-dark"
+              >
+                <i
+                  class="bx bxl-paypal"
+                  style="font-size: 30px; color: blue"
+                ></i>
+                <span style="color: wheat">PayPal</span>
+              </a>
+              <!-- Visa -->
+              <a
+                href="https://www.visa.com"
+                target="_blank"
+                title="Pay with Visa"
+                class="mb-2 text-decoration-none text-dark"
+              >
+                <i class="bx bxl-visa" style="font-size: 30px; color: gray"></i>
+                <span style="color: wheat">Visa</span>
+              </a>
+              <!-- Apple Pay -->
+              <a
+                href="https://www.apple.com/apple-pay/"
+                target="_blank"
+                title="Pay with Apple Pay"
+                class="mb-2 text-decoration-none text-dark"
+              >
+                <i
+                  class="bx bxl-apple"
+                  style="font-size: 30px; color: black"
+                ></i>
+                <span style="color: wheat">Apple Pay</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Social Media Section -->
+          <div class="col-md-4 mb-3 text-center">
+            <h5 class="text-uppercase">Follow Us</h5>
+            <a
+              href="https://web.facebook.com/simo.browny.10"
+              class="text-light mx-2"
+              ><i class="bi bi-facebook" style="font-size: 1.5rem"></i
+            ></a>
+            <a href="https://x.com/Simo_Browny" class="text-light mx-2"
+              ><i class="bi bi-twitter" style="font-size: 1.5rem"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/another_browny/"
+              class="text-light mx-2"
+              ><i class="bi bi-instagram" style="font-size: 1.5rem"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/mohamed-ezziyani-266795239/"
+              class="text-light mx-2"
+              ><i class="bi bi-linkedin" style="font-size: 1.5rem"></i
+            ></a>
+          </div>
+        </div>
+
+        <hr class="bg-light" />
+        <div class="text-center">
+          <p class="mb-0">&copy; 2024 Browny's Shop. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Quantity Control -->
+    <script src="scriipt/main.js"></script>
+  </body>
+</html>
